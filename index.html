@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculo de IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <form action='/' id='form' method='POST'>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Peso</label>
+        <input type="TEXT" class="form-control" id="peso" aria-describedby="emailHelp" placeholder="Digite seu Peso">
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Altura</label>
+        <input type="text" class="form-control" id="altura" placeholder="Altura">
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <div id='resultado'></div>
+  </section>
+  
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
